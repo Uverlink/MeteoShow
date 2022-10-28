@@ -4,6 +4,15 @@ export default {
     container: {
         margin:30
     },
+    weather: {
+        width:300,
+        height:250
+    },
+    temp: {
+        fontSize:60,
+        backgroundColor:"lightsteelblue",
+        textAlign:"center"
+    },
     title: {
         fontSize:22,
         marginBottom:22
