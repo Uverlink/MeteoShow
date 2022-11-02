@@ -22,7 +22,7 @@ export default class Search extends Component {
     }
 
     submit() {
-        this.props.navigation.navigate('Météo Actuelle', {city:this.state.city})
+        this.props.navigation.navigate('Result', {city:this.state.city})
     }
     render() {
         return (
